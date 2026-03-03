@@ -1,0 +1,43 @@
+﻿
+    .page { max-width: 900px; }
+    .page-header { margin-bottom: 1.5rem; }
+    .page-header h2 { font-size: 1.5rem; font-weight: 700; color: #2d3748; margin: 0 0 0.25rem; }
+    .sub { color: #718096; font-size: 0.875rem; margin: 0; }
+    .alert { padding: 1rem 1.25rem; border-radius: 10px; margin-bottom: 1.5rem; font-weight: 600; }
+    .alert-success { background: #f0fff4; color: #276749; border: 1px solid #c6f6d5; }
+    .alert-warn { background: #fffaf0; color: #b7791f; border: 1px solid #feebc8; }
+    .current-plan { background: white; border-radius: 14px; padding: 1.5rem; border: 2px solid #667eea; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; }
+    .plan-info { display: flex; align-items: center; gap: 1.25rem; }
+    .plan-badge { padding: 0.5rem 1rem; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-radius: 8px; font-weight: 800; font-size: 0.875rem; }
+    .plan-info h3 { margin: 0 0 0.25rem; font-size: 1.125rem; color: #2d3748; }
+    .plan-info p { margin: 0.1rem 0; font-size: 0.875rem; color: #718096; }
+    .status { font-weight: 700; color: #c53030; }
+    .status.active { color: #276749; }
+    .btn-danger { padding: 0.75rem 1.5rem; background: #fff5f5; color: #c53030; border: 2px solid #fc8181; border-radius: 8px; font-weight: 600; cursor: pointer; }
+    .btn-danger:hover { background: #fed7d7; }
+    .no-plan-banner { background: #fffaf0; border: 1px solid #feebc8; border-radius: 10px; padding: 1rem 1.25rem; color: #b7791f; font-weight: 600; display: flex; gap: 0.75rem; align-items: center; margin-bottom: 2rem; }
+    .plans-title { font-size: 1.125rem; font-weight: 700; color: #4a5568; margin-bottom: 1.25rem; }
+    .plans-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.25rem; margin-bottom: 2rem; }
+    .plan-card { background: white; border-radius: 14px; padding: 1.75rem; border: 2px solid #e2e8f0; position: relative; transition: box-shadow 0.15s; }
+    .plan-card.popular { border-color: #667eea; box-shadow: 0 8px 30px rgba(102,126,234,0.2); }
+    .popular-tag { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #667eea, #764ba2); color: white; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 1rem; border-radius: 20px; white-space: nowrap; }
+    .plan-card h4 { font-size: 1.125rem; font-weight: 700; color: #2d3748; margin: 0.5rem 0 0.5rem; }
+    .price { font-size: 2rem; font-weight: 800; color: #2d3748; }
+    .per-mo { font-size: 0.875rem; color: #718096; font-weight: 500; }
+    .flat-limit { font-size: 0.8rem; color: #a0aec0; margin-bottom: 1.25rem; }
+    .features { list-style: none; padding: 0; margin: 0 0 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .features li { font-size: 0.875rem; color: #4a5568; display: flex; gap: 0.4rem; }
+    .plan-btn { width: 100%; padding: 0.875rem; border: 2px solid #667eea; background: white; color: #667eea; border-radius: 8px; font-weight: 700; cursor: pointer; transition: all 0.15s; }
+    .plan-btn.popular { background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-color: transparent; }
+    .plan-btn:hover:not(.popular) { background: #edf2f7; }
+    .plan-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+    .payment-history { background: white; border-radius: 14px; border: 1px solid #e2e8f0; overflow: hidden; }
+    .payment-history h3 { font-size: 1rem; font-weight: 700; color: #4a5568; padding: 1.25rem 1.5rem; border-bottom: 1px solid #e2e8f0; margin: 0; }
+    table { width: 100%; border-collapse: collapse; }
+    th { padding: 0.875rem 1.5rem; text-align: left; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #718096; background: #f7fafc; border-bottom: 1px solid #e2e8f0; }
+    td { padding: 0.875rem 1.5rem; border-bottom: 1px solid #f0f4f8; font-size: 0.875rem; color: #4a5568; }
+    tr:last-child td { border-bottom: none; }
+    .status-badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600; background: #edf2f7; color: #718096; }
+    .status-badge.active { background: #f0fff4; color: #276749; }
+    .invoice-link { color: #667eea; text-decoration: none; font-weight: 600; font-size: 0.875rem; }
+  
