@@ -1,0 +1,7 @@
+# CODEOWNERS for open-society-erp
+# Maintainership: primary maintainer
+* @Devcorns
+
+# Optionally, you can assign specific folders to teams or users:
+# /backend/ @Devcorns
+# /frontend/ @Devcorns
